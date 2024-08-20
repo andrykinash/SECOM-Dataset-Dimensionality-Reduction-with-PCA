@@ -24,6 +24,7 @@ In semiconductor manufacturing, a vast number of sensor signals are monitored to
 
 - Out of the original 590 features, PCA identified that only 17 principal components are necessary to retain 99% of the variance in the dataset.
 - The first principal component alone captures over 59% of the variance, demonstrating its significant influence on the data.
+![Screenshot (2217)](https://github.com/user-attachments/assets/ed6b35fc-7d1e-47ab-aa25-4e88eb9ee3f4)
 
 ## Conclusion
   - This project effectively demonstrates how PCA can be used to simplify high-dimensional datasets like SECOM, significantly reducing the number of features without sacrificing essential information. The approach provides a clearer, more manageable dataset for further analysis or modeling.
