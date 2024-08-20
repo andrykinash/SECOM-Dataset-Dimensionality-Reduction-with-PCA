@@ -41,7 +41,7 @@ def pca(data, variance_threshold=0.99):
     return num_components, table, sorted_eigenvectors[:, :num_components]
 
 # load and preprocess the data perform PCA
-file_path = "C:/Users/andry/Desktop/492/Assignment 4/secom.txt"  # Replace path if needed
+file_path = "C:/Users/andry/Desktop/PCA/secom.txt"  # Replace path if needed
 data = load_data(file_path)
 data = replace_nan_with_mean(data)
 num_components, table_to_fill, principal_components = pca(data)
